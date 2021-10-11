@@ -2,7 +2,7 @@
 #Input1: nums = [1,1,1,2,2,3], k = 2, Output: [1,2]
 #Input2: nums = [1], k = 1, Output: [1]
 
-
+#concept: This code uses Quickselect algorithm for sorting the array based on frequency of elements in descending order.
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         mydict = {}
